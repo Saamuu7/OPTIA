@@ -1,59 +1,80 @@
-# OptiaAngular
+# 🌐 OPTIA — Desarrollo Web para Negocios
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.0-next.2.
+Este repositorio contiene mi sitio web profesional, diseñado para mostrar a qué me dedico: el diseño y desarrollo de sitios web modernos para negocios.
+La web actúa como carta de presentación, mostrando mis servicios, mi enfoque de trabajo y ejemplos del tipo de soluciones que ofrezco a empresas y emprendedores.
 
-## Development server
+El proyecto está finalizado y preparado para ser desplegado en producción.
 
-To start a local development server, run:
+## 🧾 Descripción del proyecto
+
+El sitio web está orientado a clientes que buscan una presencia digital profesional, clara y funcional. Su objetivo principal es comunicar de forma directa mis servicios como desarrollador web especializado en negocios.
+
+Incluye:
+
+- Página principal con presentación profesional
+- Sección de servicios (desarrollo web para negocios)
+- Apartado visual / ejemplos de proyectos
+- Información de contacto
+- Diseño moderno y minimalista
+- Diseño responsive (móviles, tablets y escritorio)
+- Carga rápida y navegación fluida
+
+La web está pensada tanto para autónomos, comercios y pequeñas empresas que necesitan una página web profesional.
+
+## 🛠 Tecnologías utilizadas
+
+El proyecto ha sido desarrollado con tecnologías modernas y orientadas al rendimiento:
+
+- **Angular** (Framework principal)
+- **TypeScript**
+- **Tailwind CSS** (Estilos)
+- **Lucide Angular** (Iconos)
+
+Este stack permite una web rápida, escalable y fácil de mantener.
+
+## 🚀 Ejecución en local
+
+Para ejecutar el proyecto en tu entorno local:
 
 ```bash
-ng serve
+# Clonar el repositorio
+git clone https://github.com/Saamuu7/OPTIA.git
+
+# Acceder al directorio
+cd optia-angular
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm start
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+La aplicación se abrirá en el navegador con recarga automática al realizar cambios (generalmente en `http://localhost:4200`).
 
-## Code scaffolding
+## 🏭 Build de producción
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+Para generar la versión optimizada para producción:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Esto generará la carpeta `dist/`, que contiene todos los archivos listos para ser subidos a un servidor.
 
-## Running unit tests
+## 🌐 Despliegue
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+La web puede desplegarse en cualquier plataforma compatible con sitios estáticos, como:
 
-```bash
-ng test
-```
+- Vercel
+- Netlify
+- cPanel
+- VPS o servidores privados
 
-## Running end-to-end tests
+No requiere backend para su funcionamiento.
 
-For end-to-end (e2e) testing, run:
+## 📌 Estado del proyecto
 
-```bash
-ng e2e
-```
+✅ **Proyecto finalizado y estable**
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+El sitio está listo para ser utilizado como web profesional y puede ampliarse en el futuro con nuevas secciones, proyectos, animaciones o funcionalidades según sea necesario.
